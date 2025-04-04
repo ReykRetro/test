@@ -1,0 +1,33 @@
+//Generated! Do not edit!
+
+ALIGN 4
+blankMugData:
+#incbin "png/blank_mug.dmp"
+#incbin "png/blank_frames.dmp"
+#incbin "png/blank_palette.dmp"
+#incbin "png/blank_minimug.dmp"
+#ifndef blankMug
+  #define blankMug (FirstMugID+1)
+#endif
+MugEntry(blankMug, blankMugData, 2, 5, 3, 3)
+
+ALIGN 4
+MarcusMugData:
+#incbin "png/Marcus_mug.dmp"
+#incbin "png/Marcus_frames.dmp"
+#incbin "png/Marcus_palette.dmp"
+#incbin "png/Marcus_minimug.dmp"
+#ifndef MarcusMug
+  #define MarcusMug (FirstMugID+2)
+#endif
+MugEntry(MarcusMug, MarcusMugData, 2, 5, 2, 3)
+
+ALIGN 4
+RoyMugData:
+#incbin "png/Roy_mug.dmp"
+#incbin "png/Roy_frames.dmp"
+#incbin "png/Roy_palette.dmp"
+#incbin "png/Roy_minimug.dmp"
+#ifndef RoyMug
+  #define RoyMug (FirstMugID+3)
+#endif
