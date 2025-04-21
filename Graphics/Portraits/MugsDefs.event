@@ -1,0 +1,242 @@
+//Portraits Sort Order
+//Player
+#define UnknownMug 01
+
+#define EliwoodDefaultMug 02
+#define EliwoodAngryMug 03
+#define EliwoodSadMug 04
+#define EliwoodCloakAMug 05
+#define EliwoodForwardMug 06
+#define EliwoodCloakBMug 07
+#define EliwoodWhiteAMug 08
+#define EliwoodWhiteBMug 09
+#define EliwoodClosedMug 10
+#define EliwoodEpilogueMug 11
+
+#define HectorDefaultMug 12
+#define HectorAngryAMug 13
+#define HectorAngryBMug 14
+#define HectorCloakAMug 15
+#define HectorCloakBMug 16
+#define HectorCloakCMug 17
+#define HectorCapeAMug 18
+#define HectorCapeBMug 19
+#define HectorForwardMug 20
+#define HectorEpilogueMug 21
+
+#define LynDefaultMug 22
+#define LynAngryMug 23
+#define LynSadMug 24
+#define LynCloakMug 25
+#define LynForwardMug 26
+
+#define AthosMug 27
+
+#define NinianDefaultMug 28
+#define NinianAbsortedMug 29
+#define NinianClosedMug 30
+
+#define HawkeyeMug 31
+#define MatthewMug 32
+
+#define JaffarAMug 33
+#define JaffarBMug 34
+
+#define RavenMug 35
+#define GeitzMug 36
+#define LegaultMug 37
+#define KarelMug 38
+#define DorcasMug 39
+#define BartreMug 40
+#define OswinMug 41
+#define DartMug 42
+#define WilMug 43
+#define GuyMug 44
+#define KarlaMug 45
+#define RathMug 46
+#define KentMug 47
+#define SainMug 48
+#define LowenMug 49
+#define MarcusMug 50
+
+#define FlorinaAMug 51
+#define FlorinaBMug 52
+
+#define FioraMug 53
+#define HeathMug 54
+#define VaidaMug 55
+#define ErkMug 56
+#define NinoMug 57
+#define PentMug 58
+#define LouiseMug 59
+#define CanasMug 60
+#define LuciusMug 61
+#define SerraMug 62
+#define PriscillaMug 63
+#define FarinaMug 64
+
+#define NilsDefaultMug 65
+#define NilsSadMug 66
+#define NilsAbsortedMug 67
+#define NilsClosedMug 68
+
+#define RenaultMug 69
+#define IsadoraMug 70
+#define HarkenMug 71
+#define RebeccaMug 72
+#define WallaceMug 73
+#define MerlinusMug 74
+
+//NPC 1
+#define HannaMug 75
+#define EleanorAMug 76
+#define EleanorBMug 77
+#define UtherMug 78
+#define ElbertMug 79
+#define FargusMug 80
+#define ZephielMug 81
+#define GuinevereMug 82
+#define DesmondMug 83
+#define HelenAMug 84
+#define HelenBMug 85
+#define MurdockMug 86
+
+#define LeilaAMug 87
+#define LeilaBMug 88
+
+#define HausenMug 89
+#define JanMug 90
+#define NatalieMug 91
+
+#define BramimondMug 92
+#define RolandMug 93
+#define DurbanMug 94
+
+//Boss 1
+#define NergalAMug 95
+#define NergalBMug 96
+#define NergalCMug 97
+#define NergalDMug 98
+
+#define SoniaMug 99
+#define BrendanAMug 100
+#define LloydAMug 101
+#define LinusAMug 102
+#define LimstellaMug 103
+
+#define EphidelAMug 104
+#define EphidelBMug 105
+
+#define DarinAMug 106
+#define ErikMug 107
+
+//NPC 2
+#define SantaruzMug 108
+#define AraphenMug 109
+
+//Boss 2
+#define GronzyiMug 110
+#define WireMug 111
+#define ZaganMug 112
+#define BoiesMug 113
+#define SalenMug 114
+#define BaukerMug 115
+#define BernardMug 116
+#define DamianMug 117
+#define ZoldamMug 118
+#define UhaiAMug 119
+#define AionMug 120
+#define GeorgMug 121
+#define CameronMug 122
+#define OlegMug 123
+#define EubansMug 124
+#define KishunaMug 125
+
+#define PaulMug 126
+#define JasminMug 127
+
+#define PascalMug 128
+#define KennethAMug 129
+#define JermeAMug 130
+#define MaximeMug 131
+#define UrsulaAMug 132
+#define TeodorMug 133
+#define DenningMug 134
+#define KaimMug 135
+
+#define BattaMug 136
+#define ZuguMug 137
+#define GlassMug 138
+#define MigalMug 139
+#define CarjigaMug 140
+#define BugMug 141
+#define PuzonMug 142
+#define BoolMug 143
+#define HeintzMug 144
+#define BeyardMug 145
+#define YogiMug 146
+#define EaglerMug 147
+#define LundgrenMug 148
+
+#define BanditEMug 149
+
+#define LloydBMug 150
+#define LinusBMug 151
+#define BrendanBMug 152
+#define UhaiBMug 153
+#define UrsulaBMug 154
+#define KennethBMug 155
+#define DarinBMug 156
+#define JermeBMug 157
+
+//NPC 2
+#define RoyMug 158
+#define LilinaMug 159
+#define FaeMug 160
+#define SophiaMug 161
+#define PriestMug 162
+
+#define MayordomoAMug 163
+#define MayordomoBMug 164
+
+#define SoldierAMug 165
+#define SoldierBMug 166
+#define SoldierCMug 167
+#define SoldierDMug 168
+
+#define VillagerAMug 169
+#define VillagerBMug 170
+#define VillagerCMug 171
+#define VillagerDMug 172
+#define VillagerEMug 173
+#define VillagerFMug 174
+#define VillagerGMug 175
+#define VillagerHMug 176
+#define VillagerIMug 177
+#define VillagerJMug 178
+#define VillagerKMug 179
+#define VillagerLMug 180
+#define VillagerMMug 181
+#define VillagerNMug 182
+#define VillagerOMug 183
+#define VillagerPMug 184
+#define VillagerQMug 185
+
+#define BanditAMug 186
+#define BanditBMug 187
+#define BanditCMug 188
+#define BanditDMug 189
+
+//ClassCards
+//NPC 3
+#define AnnaMug 223
+#define JakeMug 224
+
+#define ArmoryMug 225
+#define ArenaMug 226
+#define ShopMug 227
+#define SecretMug 228
+
+//ClasCards 2
+//NPC 4
+#define TailsMug 255

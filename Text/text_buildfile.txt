@@ -1,0 +1,237 @@
+
+# 0x0002 textWeaponRankIncreasedTo
+ Weapon rank increased to [X]
+
+# 0x0094
+HP Bars[.][X]
+
+# 0x00B2
+Set health bar display[X]
+
+#0x3A LearnedSkillText
+//first text ID in the free block
+Learned  [X]
+
+
+
+//Player names
+# 0x0212
+Eliwood[.][X]
+# 0x0213
+Hector[.][X]
+# 0x0214
+Lyn[.][X]
+
+# 0x0215
+Athos[.][X]
+
+# 0x0216
+Bartre[X]
+
+# 0x0217
+Canas[X]
+
+# 0x0218
+Dart[X]
+# 0x0219
+Dorcas[X]
+
+# 0x021a
+Erk[.][X]
+
+# 0x021b
+Farina[X]
+# 0x021c
+Fiora[.][X]
+# 0x021d
+Florina[.][X]
+
+# 0x021e
+Geitz[.][X]
+# 0x021f
+Guy[.][X]
+
+# 0x0220
+Harken[X]
+# 0x0221
+Hawkeye[.][X]
+# 0x0222
+Heath[.][X]
+
+# 0x0223
+Isadora[.][X]
+
+# 0x0224
+Jaffar[.][X]
+
+# 0x0225
+Karel[.][X]
+# 0x0226
+Karla[.][X]
+# 0x0227
+Kent[X]
+
+# 0x0228
+Legault[X]
+# 0x0229
+Louise[.][X]
+# 0x022a
+Lowen[.][X]
+# 0x022b
+Lucius[X]
+
+# 0x022c
+Marcus[.][X]
+# 0x022d
+Matthew[.][X]
+# 0x022e
+Merlinus[X]
+
+# 0x022f
+Nils[X]
+# 0x0230
+Ninian[X]
+# 0x0231
+Nino[X]
+
+# 0x0232
+Oswin[.][X]
+
+# 0x0233
+Priscilla[.][X]
+# 0x0234
+Pent[X]
+
+# 0x0235
+Rath[X]
+# 0x0236
+Raven[.][X]
+# 0x0237
+Rebecca[X]
+# 0x0238
+Renault[.][X]
+
+# 0x0239
+Sain[X]
+# 0x023a
+Serra[.][X]
+
+# 0x023b
+Vaida[.][X]
+
+# 0x023c
+Wallace[.][X]
+# 0x023d
+Will[X]
+
+
+
+#include "statscreen_text.txt"
+
+
+
+#0xd4c LikesText
+//first text ID in the free block
+Likes:[X]
+
+#0xd4d DislikesText 
+*{Dislikes}:[X]
+
+#0xd4e HeightText
+Height:[X]
+
+#0xd4f AgeText
+Age:[X]
+
+## HouseText
+//first text ID in the free block
+[MidRight][LoadFace][CurrentPortrait]Nothing to see here.[A][X]
+
+## VillageText
+[MidRight][LoadFace][0xFF][0xFF]These look useful.[A][X]
+
+## DV1Desc
+Freeze all enemies[N]
+for one turn[X]
+
+## nameCamus
+//for identity problems
+Camus[X]
+
+## nameSirius
+Sirius[X]
+
+## nameZeke
+Zeke[X]
+
+## StairsNameText
+ Stairs[X]
+
+## StairsDescText
+Take this staircase to[N]
+the connecting end.[X]
+
+## StairsBlockedText
+The staircase is blocked[N]
+from the other side.[X]
+
+## RaidNameText
+ Raid[X]
+
+## RaidDescText
+Destroy this village[N]
+for items and gold.[X]
+
+## EscapeName
+ Escape[X]
+
+## EscapeDesc
+Have this unit[N]
+leave this chapter.[X]
+
+## ArriveName
+ Arrive[X]
+
+## ArriveDesc
+Complete this chapter[N]
+by having this unit arrive.[X]
+
+## LordMustEscapeLastText
+This unit must escape last.[X]
+
+## Mov_Text_ID
+Mov[X]
+
+## UM_GaidenBlackMagic
+ B. Magic[X]
+
+## UM_GaidenWhiteMagic
+ W. Magic[X]
+
+## UM_GaidenMagicDesc
+Spend HP to cast spells[NL]
+this unit has learned.[X]
+
+## GaidenMagicUMErrorText
+You don't have enough HP[NL]
+to cast any spells.[X]
+
+## GaidenMagicSpellMenuErrorText
+You don't have enough HP[NL]
+to cast this spell.[X]
+
+## GaidenMagicHPCostText
+Cost[X]
+
+## PrepScreenUseSkillScroll
+ Skill learned[X]
+
+## SkillScrollDesc
+A scroll that teaches[N]
+a skill when used.[X]
+
+#include "unitmenu_text.txt"
+
+#include "skilldesc_text.txt"
+
+#include "unitinfo_text.txt"

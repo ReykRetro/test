@@ -1,0 +1,80 @@
+//Class Cards 1
+setCardEntry(0xbe, MyrmidonGraphic, MyrmidonPalette)
+setCardEntry(0xbf, SwordmasterGraphic, SwordmasterPalette)
+
+setCardEntry(0xc0, FighterGraphic, FighterPalette)
+setCardEntry(0xc1, WarriorGraphic, WarriorPalette)
+
+setCardEntry(0xc2, KnightGraphic, KnightPalette)
+setCardEntry(0xc3, GeneralGraphic, GeneralPalette)
+
+setCardEntry(0xc4, ArcherGraphic, ArcherPalette)
+setCardEntry(0xc5, SniperGraphic, SniperPalette)
+
+setCardEntry(0xc6, MonkGraphic, MonkPalette)
+setCardEntry(0xc7, BishopGraphic, BishopPalette)
+
+setCardEntry(0xc8, MageGraphic, MagePalette)
+setCardEntry(0xc9, SageGraphic, SagePalette)
+
+setCardEntry(0xca, ShamanGraphic, ShamanPalette)
+setCardEntry(0xcb, DruidGraphic, DruidPalette)
+
+setCardEntry(0xcc, CavalierGraphic, CavalierPalette)
+setCardEntry(0xcd, PaladinGraphic, PaladinPalette)
+
+setCardEntry(0xce, TroubadourGraphic, TroubadourPalette)
+setCardEntry(0xcf, ValkyrieGraphic, ValkyriePalette)
+
+setCardEntry(0xd0, NomadGraphic, NomadPalette)
+setCardEntry(0xd1, NomadTrooperGraphic, NomadTrooperPalette)
+
+setCardEntry(0xd2, PegasusGraphic, PegasusPalette)
+setCardEntry(0xd3, FalcoknightGraphic, FalcoknightPalette)
+
+setCardEntry(0xd4, WyvernRiderGraphic, WyvernRiderPalette)
+setCardEntry(0xd5, WyvernLordGraphic, WyvernLordPalette)
+
+setCardEntry(0xd6, SoldierGraphic, SoldierPalette)
+
+setCardEntry(0xd7, BrigandGraphic, BrigandPalette)
+setCardEntry(0xd8, PirateGraphic, PiratePalette)
+setCardEntry(0xd9, BerserkerGraphic, BerserkerPalette)
+
+setCardEntry(0xda, ThiefGraphic, ThiefPalette)
+
+setCardEntry(0xdb, ManaketeGraphic, ManaketePalette)
+
+setCardEntry(0xdc, MercenaryGraphic, MercenaryPalette)
+setCardEntry(0xdd, HeroGraphic, HeroPalette)
+
+setCardEntry(0xde, FireDragonGraphic, FireDragonPalette)
+
+
+//Class Cards 2
+setCardEntry(0xe5, ArchMogallGraphic, ArchMogallPalette)
+setCardEntry(0xe6, BaelGraphic, BaelPalette)
+setCardEntry(0xe7, BonewalkerGraphic, BonewalkerPalette)
+setCardEntry(0xe8, CivilianGraphic, CivilianPalette)
+setCardEntry(0xe9, CyclopsGraphic, CyclopsPalette)
+setCardEntry(0xea, DeathgoyleGraphic, DeathgoylePalette)
+setCardEntry(0xeb, DemonKingGraphic, DemonKingPalette)
+setCardEntry(0xec, DracoZombieGraphic, DracoZombiePalette)
+setCardEntry(0xed, ElderBaelGraphic, ElderBaelPalette)
+setCardEntry(0xee, EntombedGraphic, EntombedPalette)
+setCardEntry(0xef, FleetGraphic, FleetPalette)
+setCardEntry(0xf0, GargoyleGraphic, GargoylePalette)
+setCardEntry(0xf1, GorgonGraphic, GorgonPalette)
+setCardEntry(0xf2, GreatKnightGraphic, GreatKnightPalette)
+setCardEntry(0xf3, GwyllgiGraphic, GwyllgiPalette)
+setCardEntry(0xf4, MaelduinGraphic, MaelduinPalette)
+setCardEntry(0xf5, MageKnightGraphic, MageKnightPalette)
+setCardEntry(0xf6, MautheDogGraphic, MautheDogPalette)
+setCardEntry(0xf7, MogallGraphic, MogallPalette)
+setCardEntry(0xf8, PhantomGraphic, PhantomPalette)
+setCardEntry(0xf9, RangerGraphic, RangerPalette)
+setCardEntry(0xfa, RevenantGraphic, RevenantPalette)
+setCardEntry(0xfb, RogueGraphic, RoguePalette)
+setCardEntry(0xfc, TarvosGraphic, TarvosPalette)
+setCardEntry(0xfd, WightGraphic, WightPalette)
+setCardEntry(0xfe, WyvernKnightGraphic, WyvernKnightPalette)

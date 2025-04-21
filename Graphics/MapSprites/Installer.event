@@ -1,0 +1,48 @@
+#include "Internals.event"
+
+ALIGN 4
+EliwoodT1stand:
+#incbin "dmp/EliwoodT1stand.dmp"
+ALIGN 4
+EliwoodT1walk:
+#incbin "dmp/EliwoodT1walk.dmp"
+
+ALIGN 4
+LynT1stand:
+#incbin "dmp/LynT1stand.dmp"
+ALIGN 4
+LynT1walk:
+#incbin "dmp/LynT1walk.dmp"
+
+ALIGN 4
+EliwoodT2stand:
+#incbin "dmp/EliwoodT2stand.dmp"
+ALIGN 4
+EliwoodT2walk:
+#incbin "dmp/EliwoodT2walk.dmp"
+
+ALIGN 4
+LynT2stand:
+#incbin "dmp/LynT2stand.dmp"
+ALIGN 4
+LynT2walk:
+#incbin "dmp/LynT2walk.dmp"
+
+
+//Copy from here 
+PUSH 
+
+//Standing MS
+SetSMS(0x00, 0, EliwoodT1stand)
+SetSMS(0x01, 0, LynT1stand)
+SetSMS(0x02, 1, EliwoodT2stand)
+SetSMS(0x03, 0, LynT2stand)
+
+//Walking MS
+SetMMS(0x00, EliwoodT1walk, NormalAP)
+SetMMS(0x01, LynT1walk, NormalAP)
+SetMMS(0x02, EliwoodT2walk, NormalAP)
+SetMMS(0x03, LynT2walk, NormalAP)
+
+POP 
+//Copy until here 
