@@ -1,0 +1,11 @@
+//#include "BG/Installer.event"
+//#include "CG/Installer.event"
+#include "Portraits/MugsInstaller.event"
+#include "Anims/Installer.event"
+#include "MapSprites/Installer.event"
+//#include "ItemIcons/Installer.event
+//#include "BattleBG/Installer.event"
+//#include "Palettes/Installer.event"
+//#include "WorldMap/Installer.event"
+//#include "BattleScreen/Installer.event"
+//#include "Spells/Installer.event"
