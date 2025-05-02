@@ -105,7 +105,7 @@
 #include "Wyvern Rider/2. Lance/Lance Installer.event" //50
 #include "Wyvern Rider/8. Unarmed/Unarmed Installer.event" //51
 
-//#include "Wyvern Lord/1. Sword/Sword Installer.event" //52
+#include "Wyvern Lord/1. Sword/Sword Installer.event" //52
 #include "Wyvern Lord/2. Lance/Lance Installer.event" //53
 #include "Wyvern Lord/8. Unarmed/Unarmed Installer.event" //54
 
@@ -215,7 +215,7 @@
 #include "Nergal/6. Magic/Magic Installer.event" //cc
 #include "Nergal/7. Staff/Staff Installer.event" //cd
 
-//#include "Phantom/3. Axe/Axe Installer.event" //ce
-//#include "Phantom/4. Handaxe/Handaxe Installer.event" //cf
-//#include "Phantom/8. Unarmed/Unarmed Installer.event" //d0
+#include "Phantom/3. Axe/Axe Installer.event" //ce
+#include "Phantom/4. Handaxe/Handaxe Installer.event" //cf
+#include "Phantom/8. Unarmed/Unarmed Installer.event" //d0
 //////////

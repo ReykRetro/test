@@ -21,10 +21,3 @@
 #define weaponAnim(weaponID, ID) "BYTE weaponID 0 ID 0;"
 #define weaponAnimEnd "WORD 0"
 #define SetAnimationPointers(class, pointer) "PUSH; ORG 0x807110 + (class*84) + 52; POIN pointer; POP"
-
-ALIGN 20
-NewClassAnimTable: 
-#undef ClassAnimTable 
-#define ClassAnimTable NewClassAnimTable
-FILL(0x20*0x100) 0 
-ORG NewClassAnimTable 
