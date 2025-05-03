@@ -28,7 +28,12 @@ ALIGN 4
 LynT2walk:
 #incbin "dmp/LynT2walk.dmp"
 
-
+ALIGN 4
+Berserkerstand:
+#incbin "dmp/Berserkerstand.dmp"
+ALIGN 4
+Berserkerwalk:
+#incbin "dmp/Berserkerwalk.dmp"
 //Copy from here 
 PUSH 
 
@@ -37,12 +42,14 @@ SetSMS(0x00, 0, EliwoodT1stand)
 SetSMS(0x01, 0, LynT1stand)
 SetSMS(0x02, 1, EliwoodT2stand)
 SetSMS(0x03, 0, LynT2stand)
+SetMMS(0x35, 1, Berserkerstand)
 
 //Walking MS
 SetMMS(0x00, EliwoodT1walk, NormalAP)
 SetMMS(0x01, LynT1walk, NormalAP)
 SetMMS(0x02, EliwoodT2walk, NormalAP)
 SetMMS(0x03, LynT2walk, NormalAP)
+SetMMS(0x43, Berserkerwalk, NormalAP)
 
 POP 
 //Copy until here 

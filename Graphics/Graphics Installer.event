@@ -1,4 +1,4 @@
-#include "BG/Installer.event"
+#include "BG&CG/Installer.event"
 //#include "CG/Installer.event"
 #include "Portraits/MugsInstaller.event"
 #include "Anims/Installer.event"
