@@ -1,0 +1,22 @@
+ALIGN 4
+FortObjects:
+#incext Png2Dmp "Fort.png" --lz77
+/////////////////////////////////////////
+ALIGN 4
+FortApalette:
+#incbin "FortPalette_1.dmp"
+ALIGN 4
+FortBpalette:
+#incbin "FortPalette_2.dmp"
+/////////////////////////////////////////
+ALIGN 4
+FortTiles:
+#incext compress "Fort.mapchip_config"
+/////////////////////////////////////////
+/////////////////////////////////////////
+EventPointerTable(0x3c, FortObjects)
+
+EventPointerTable(0x3d, FortApalette)
+EventPointerTable(0x68, FortBpalette)
+
+EventPointerTable(0x3e, FortTiles)

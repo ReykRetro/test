@@ -1,0 +1,10 @@
+ALIGN 4
+PlainsObjects:
+#incext Png2Dmp "Plains.png" --lz77
+
+ALIGN 4
+PlainsTiles:
+#incext compress "Plains.mapchip_config"
+/////////////////////////////////////////
+EventPointerTable(0x2e, PlainsObjects)
+EventPointerTable(0x30, PlainsTiles)

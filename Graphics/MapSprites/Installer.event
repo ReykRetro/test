@@ -42,14 +42,13 @@ SetSMS(0x00, 0, EliwoodT1stand)
 SetSMS(0x01, 0, LynT1stand)
 SetSMS(0x02, 1, EliwoodT2stand)
 SetSMS(0x03, 0, LynT2stand)
-SetMMS(0x35, 1, Berserkerstand)
+SetSMS(0x35, 1, Berserkerstand)
 
 //Walking MS
 SetMMS(0x00, EliwoodT1walk, NormalAP)
 SetMMS(0x01, LynT1walk, NormalAP)
 SetMMS(0x02, EliwoodT2walk, NormalAP)
 SetMMS(0x03, LynT2walk, NormalAP)
-SetMMS(0x43, Berserkerwalk, NormalAP)
+SetMMS(0x42, Berserkerwalk, NormalAP)
 
-POP 
-//Copy until here 
+POP

@@ -1,0 +1,33 @@
+ALIGN 4
+VillageObjects:
+#incext Png2Dmp "Village.png" --lz77
+/////////////////////////////////////////
+ALIGN 4
+VillageApalette:
+#incbin "VillagePalette_1.dmp"
+
+ALIGN 4
+VillageBpalette:
+#incbin "VillagePalette_2.dmp"
+
+ALIGN 4
+VillageCpalette:
+#incbin "VillagePalette_3.dmp"
+
+ALIGN 4
+VillageDpalette:
+#incbin "VillagePalette_3.dmp"
+/////////////////////////////////////////
+ALIGN 4
+VillageTiles:
+#incext compress "Village.mapchip_config"
+/////////////////////////////////////////
+/////////////////////////////////////////
+EventPointerTable(0x0e, VillageObjects)
+
+EventPointerTable(0x0f, VillageApalette)
+EventPointerTable(0x72, VillageBpalette)
+EventPointerTable(0xea, VillageCpalette)
+//EventPointerTable(0x00, VillageCpalette)
+
+EventPointerTable(0x10, VillageTiles)

@@ -1,0 +1,21 @@
+ALIGN 4
+CastleApalette:
+#incbin "CastlePalette_1.dmp"
+
+ALIGN 4
+CastleBpalette:
+#incbin "CastlePalette_2.dmp"
+
+ALIGN 4
+CastleCpalette:
+#incbin "CastlePalette_3.dmp"
+
+ALIGN 4
+CastleDpalette:
+#incbin "CastlePalette_4.dmp"
+/////////////////////////////////////////
+/////////////////////////////////////////
+EventPointerTable(0x19, CastleApalette)
+EventPointerTable(0x48, CastleBpalette)
+EventPointerTable(0x57, CastleCpalette)
+EventPointerTable(0xb9, CastleDpalette)
